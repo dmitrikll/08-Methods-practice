@@ -91,7 +91,6 @@ public class Main {
                 "\nTariff for weight over " + roundMaxWeight + MEASURE + ": " + CURRENCY + " " + roundMaxTariff +
                 "\n\nBaggage weight: " + roundWeight + MEASURE +
                 "\nThe cost of transportation: " + CURRENCY + " " + roundPayTariff);
-
     }
 
     public static String roundValue(double value) {
