@@ -19,7 +19,7 @@ public class Main {
     }
 
     public static double getTotalWeight(int qntity, double wght) {
-        
+
         return qntity * wght;
     }
 
