@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 public class Calculate {
 
-    public static double getTariff (double weight){
+    public static double getTariff(double weight) {
 
         if (weight <= Main.MINWEIGHT) {
             return Main.MINTARIFF;
@@ -24,7 +24,7 @@ public class Calculate {
                 "\nPayment according to the tariff: " + Main.CURRENCY + " " + rountClientTariff);
     }
 
-    public static String roundValue(double value){
+    public static String roundValue(double value) {
         return new DecimalFormat("#.00").format(value);
     }
 }

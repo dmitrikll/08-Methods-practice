@@ -14,6 +14,7 @@ public class Main {
     public static void main(String[] args) {
 
         weight = 43;
+
         clientTariff = Calculate.getTariff(weight);
         Calculate.getOutput();
     }
