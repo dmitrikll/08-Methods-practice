@@ -8,7 +8,7 @@ public class Main {
     static double totalCost;
     static double averageCost;
     final static String CURRENCY = "USD";
-    
+
     public static void main(String[] args) {
 
         productCost = new double[]{14.75, 23.15, 32.12, 54.01, 11.23, 76.23, 43.28, 22.11, 62.70, 93.45};
