@@ -1,6 +1,5 @@
 package Task01;
 
-import javax.swing.*;
 import java.text.DecimalFormat;
 
 public class Main {

@@ -4,11 +4,11 @@ public class Main {
 
     static double weight;
     static double clientTariff;
-    final static double MINTARIFF = 19;
-    final static double AVGTARIFF = 32;
-    final static double MAXTARIFF = 47;
-    final static double MINWEIGHT = 25;
-    final static double MAXWEIGHT = 50;
+    final static double MIN_TARIFF = 19;
+    final static double AVG_TARIFF = 32;
+    final static double MAX_TARIFF = 47;
+    final static double MIN_WEIGHT = 25;
+    final static double MAX_WEIGHT = 50;
     final static String CURRENCY = "USD";
 
     public static void main(String[] args) {

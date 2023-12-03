@@ -6,25 +6,26 @@ public class Calculate {
 
     public static double getTariff(double weight) {
 
-        if (weight <= Main.MINWEIGHT) {
-            return Main.MINTARIFF;
-        } else if (weight > Main.MINWEIGHT && weight <= Main.MAXWEIGHT) {
-            return Main.AVGTARIFF;
+        if (weight <= Main.MIN_WEIGHT) {
+            return Main.MIN_TARIFF;
+        } else if (weight > Main.MIN_WEIGHT && weight <= Main.MAX_WEIGHT) {
+            return Main.AVG_TARIFF;
         } else {
-            return Main.MAXTARIFF;
+            return Main.MAX_TARIFF;
         }
     }
 
     public static void getOutput() {
 
         String roundWight = roundValue(Main.weight);
-        String rountClientTariff = roundValue(Main.clientTariff);
+        String roundClientTariff = roundValue(Main.clientTariff);
 
         System.out.println("Baggage weight: kg " + roundWight +
-                "\nPayment according to the tariff: " + Main.CURRENCY + " " + rountClientTariff);
+                "\nPayment according to the tariff: " + Main.CURRENCY + " " + roundClientTariff);
     }
 
     public static String roundValue(double value) {
+
         return new DecimalFormat("#.00").format(value);
     }
 }
